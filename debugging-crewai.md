@@ -553,6 +553,7 @@ if __name__ == "__main__":
         elif sys.platform.startswith("win"):
             os.startfile(report_path)
 ````
+![Agent tool use issues](https://github.com/onlineinference/wandb-walkthrough/blob/main/images/529a09b9.png)
 
 **Debugging with Weave:** Weave traces revealed a `ChatOpenAI` `.call` method issue. The fix was to subclass `ChatOpenAI` and add a `.call` method that wraps `.invoke()`:
 
@@ -1112,6 +1113,7 @@ if __name__ == "__main__":
         elif sys.platform.startswith("win"):
             os.startfile(report_path)
 ````
+![Weave identifying issues with our agent](https://github.com/onlineinference/wandb-walkthrough/blob/main/images/21632279.png?raw=true)
 
 Note that your Cerebras model API needs to be running locally to use the agent above.
 
