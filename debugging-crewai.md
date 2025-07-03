@@ -1169,6 +1169,7 @@ class CombinedSearchTool(BaseTool):
 ```
 
 This change significantly reduced latency, as reflected in Weave traces.
+![Weave helped up shave off 15 seconds!](https://github.com/onlineinference/wandb-walkthrough/blob/main/images/d1acd0ee.png?raw=true)
 
 ## Conclusion
 
