@@ -1,6 +1,3 @@
-Here's the article formatted for a GitHub Markdown file, with minimal non-code elements and placeholders for images.
-
-````markdown
 # Debugging CrewAI Multi-Agent Applications
 
 This article explores combining **CrewAI's** multi-agent orchestration with **W&B Weave's** observability for debugging complex AI workflows. We'll use a log analysis and debugging agent as an example.
@@ -1170,12 +1167,6 @@ class CombinedSearchTool(BaseTool):
 ```
 
 This change significantly reduced latency, as reflected in Weave traces.
-
-*Weave Trace Before Optimization*
-
-*Weave Trace After Optimization*
-
------
 
 ## Conclusion
 
