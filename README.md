@@ -12,7 +12,7 @@ This repository, `wandb-walkthrough`, serves as a collection of examples and tut
 
 ## Tutorials
 
-* Coming soon
+* [Advanced Kimi K2 Observability with W&B Weave](https://github.com/onlineinference/wandb-walkthrough/blob/main/kimi-k2.md)
 
 ---
 
