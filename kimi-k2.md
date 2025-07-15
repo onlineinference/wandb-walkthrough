@@ -328,6 +328,8 @@ After visiting your Weave dashboard you'll find a list of your traces, including
 
 You can further dig into individual traces to explore the inputs and outputs, to explore how things are working, where they can be improved and provide not just explainability but observability.
 
+![Viewing traces in Weave](https://github.com/onlineinference/wandb-walkthrough/blob/main/images/f00c2222.png)
+
 -----
 
 ## Step 5: (Optional) Custom Evaluation and Feedback Loop
@@ -463,3 +465,4 @@ print(f"Average simulated score: {evaluation_dataset_output['evaluation_dataset_
 
 print("\nTutorial execution complete. Check your W&B Weave dashboard for detailed observability!")
 ```
+![Reviewing batch processes in Weave](https://github.com/onlineinference/wandb-walkthrough/blob/main/images/c579d531.png)
