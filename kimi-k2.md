@@ -35,7 +35,7 @@ import json
 # This creates a dedicated space in your W&B dashboard for Kimi K2 logs.
 # You will be prompted to log in to W&B if you haven't already.
 weave.init(
-    project_name="kimi-k2-deep-observability",
+    project_name="gh-kimi-k2-deep-observability",
     # entity="your-wandb-entity" # Optional: specify your W&B team/entity if working in a team
 )
 
