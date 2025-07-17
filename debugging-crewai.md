@@ -117,7 +117,7 @@ from pydantic import BaseModel, Field
 from crewai import Agent, Task, Crew, Process
 from crewai.tools import BaseTool
 from crewai import BaseLLM, LLM
-import weave; weave.init("crewai_debug_agent")
+import weave; weave.init("gh_crewai_debug_agent")
 
 from langchain_openai import ChatOpenAI
 import os
@@ -695,7 +695,7 @@ from pydantic import BaseModel, Field
 from crewai import Agent, Task, Crew, Process
 from crewai.tools import BaseTool
 from crewai import LLM
-import weave; weave.init("crewai_debug_agent")
+import weave; weave.init("gh_crewai_debug_agent")
 
 from langchain_openai import ChatOpenAI
 import os
